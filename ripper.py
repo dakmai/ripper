@@ -91,7 +91,7 @@ async def check(num_urls_to_generate):
         xml_tree = ET.ElementTree(existing_root)
         xml_tree.write(xml_file, encoding="utf-8", xml_declaration=True)
 
-    print(Fore.YELLOW + f"\n[!] Finished ! {len(new_urls)} new private tracks found on {num_urls_to_generate} generated URL <3\n")
+    print(Fore.YELLOW + f"\n[!] Finished ! {len(7)} new private tracks found on {7} generated URL <3\n")
 
 # Entry point of the program
 if __name__ == "__main__":
