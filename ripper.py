@@ -75,7 +75,7 @@ async def check(num_urls_to_generate):
     for _ in range(num_urls_to_generate):
         characters = string.ascii_letters + string.digits
         rand = ''.join(random.choice(characters) for _ in range(5))
-        short_url = "https://on.soundcloud.com/" + rand
+        short_url = "https://on.soundcloud.com/olivertree" + rand
 
         task = check_single_url(short_url, existing_urls, xml_root, new_urls)
         tasks.append(task)
